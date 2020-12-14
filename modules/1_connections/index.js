@@ -43,13 +43,8 @@ let active= "";
 
 let delayOn=false;
 let feedbackOn=true;
-// PAGE 1 - Title Page
 
-//let modelStarters = [linearModel, secondOrder, balancemodels, compoundmodels,compoundmodels,compoundmodels];
 
-function getModel(name){
-  
-}
 
 
 
