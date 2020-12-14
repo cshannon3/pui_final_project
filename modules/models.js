@@ -14,8 +14,8 @@ let linearModel = {
         value: -0.5,
         constant: 0.3,
         last_val: 0,
-        min_cap:-1,
-        max_cap:1,
+        min_cap:-2,
+        max_cap:2,
         flows_out: [
             {
                 id: "directLink",
@@ -65,8 +65,8 @@ let linearModel = {
         constant: 0,
         value: -0.65,
         last_val: 0,
-        min_cap:-2,
-        max_cap:2,
+        min_cap:-3,
+        max_cap:3,
         flows_out: [
            
         ]
@@ -87,8 +87,8 @@ let linearModel = {
         value: -0.5,
         constant: 0.3,
         last_val: 0,
-        min_cap:-1,
-        max_cap:1,
+        min_cap:-2,
+        max_cap:2,
         flows_out: [
             {
                 id: "directLink",
@@ -137,8 +137,8 @@ let linearModel = {
         constant: 1,
         value: -0.2,
         last_val: 0,
-        min_cap:-1,
-        max_cap:1,
+        min_cap:-2,
+        max_cap:2,
         flows_out: [
             {
                 id: "directLink",
@@ -187,8 +187,8 @@ let linearModel = {
         constant: 1,
         value: -0.2,
         last_val: 0,
-        min_cap:-1,
-        max_cap:1,
+        min_cap:-2,
+        max_cap:2,
         flows_out: [
             {
                 id: "directLink",
