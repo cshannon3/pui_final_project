@@ -114,7 +114,7 @@ document.getElementById('a-minus').addEventListener('mouseup', (div) => { active
 document.getElementById('a-plus').addEventListener('mousedown', (div) => { active="a-plus";});
 document.getElementById('a-plus').addEventListener('mouseup', (div) => { active="";});
 
-if(!delayOn && !! feedback){
+if(!delayOn && !! feedbackOn){
   document.getElementById('a-weight-val').innerHTML = models["1"].flows_out[0].value.toFixed(2);
   document.getElementById('a-weight-minus').addEventListener('mousedown', (div) => { active="a-weight-minus";});
   document.getElementById('a-weight-minus').addEventListener('mouseup', (div) => {active="";});
