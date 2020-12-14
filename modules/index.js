@@ -26,6 +26,8 @@ initial value
 flows
 
 */
+
+
 let grid = 6;
 let h =3;
 let loopsPerUpdate = 5;
@@ -33,9 +35,10 @@ let loop = 0;
 let cnv,  pTop;
 let side, unit, contentWidth;
 let activeNode = "1";
-let delayOn=true;
-let feedbackOn=false;
-let emergentOn=false;
+let emergentOn=window.location.href.includes("4_");
+let feedbackOn=(emergentOn ||window.location.href.includes("3_"));
+let delayOn=(feedbackOn ||window.location.href.includes("2_"));
+console.log(window.location.href);
 let models = {...linearModel};
 let active = "";
 // TODO reset all
