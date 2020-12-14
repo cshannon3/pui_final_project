@@ -33,35 +33,36 @@
         <h4>Examples</h4>
         <div class="row mb-4" id="pop-up-content">
             <div class="col-sm-3 mt-1">
-                <div class="selected card model-option linear">
-                    <p class="sm model-option linear">Diet</p>
+                <div class="selected card model-option 1">
+                    <p class="sm model-option 1">Diet</p>
+                </div>
+            </div>
+            <div class="col-sm-3 mt-1"> 
+                <div class="card model-option 3">
+                    <p class="sm model-option 3">Stress</p>
                 </div>
             </div>
             <div class="col-sm-3 mt-1">
-                <div class="card model-option inverse">
-                    <p class="sm model-option inverse">Stress</p>
+                <div class="card model-option 4">
+                    <p class="sm model-option 4">Sleep</p>
                 </div>
             </div>
             <div class="col-sm-3 mt-1">
-                <div class="card model-option nonlinear">
-                    <p class="sm model-option nonlinear">Sleep</p>
-                </div>
-            </div>
-            <div class="col-sm-3 mt-1">
-                <div class="card  model-option indirect">
-                    <p class="sm model-option indirect">Sunlight</p>
+                <div class="card  model-option 5">
+                    <p class="sm model-option 5">Exercise</p>
                 </div>
             </div>
         </div>
-
         <div class="row mb-4 col-md-auto">
             <div class="col-12">
                 <div id="simulationBox" class="pt-3"> </div>
             </div>
         </div>
-        <div class="row d-flex menu justify-content-md-center">
+        <button id= "reset-button" type="button" class="btn btn-outline-primary">Reset</button>
+
+        <div id="menu" class="row menu justify-content-md-center">
             <div class="col-sm-3 col-xs-6">
-                <p id="a-label"> Diet:</p>
+                <p id="a-label">Diet:</p>
                 <button type="button" class="btn btn-outline-primary btn-circle"id="a-minus">-</button>
                 <span id="a-val">1</span>
                 <button type="button" class="btn btn-outline-primary btn-circle" id="a-plus">+</button>
@@ -73,14 +74,16 @@
                 <button type="button" class="btn btn-outline-primary btn-circle" id="a-weight-plus">+</button>
             </div>
             <div class="col-sm-3 col-xs-6">
-                <p id="b-label">Health:</p>
-                <button type="button" class="btn btn-outline-primary btn-circle"id="b-minus">-</button>
-                <span id="b-val">0.3</span>
-                <button type="button" class="btn btn-outline-primary btn-circle" id="b-plus">+</button>
+                <p>delay:</p>
+                <button type="button" class="btn btn-outline-primary btn-circle" id="a-delay-minus">-</button>
+                <span id="a-delay-val">1</span>
+                <button type="button" class="btn btn-outline-primary btn-circle"id="a-delay-plus">+</button>
             </div>
-            <button id= "reset-button" type="button" class="btn btn-outline-primary">Reset</button>
+            <div class="col-sm-3 col-xs-6">
+                <p>Health:</p>
+                <span id="b-val">0</span>
+            </div>
         </div>
-
 
         <div class="row mb-4 col-md-auto justify-content-between">
             <div class="col-4">

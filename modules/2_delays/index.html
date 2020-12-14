@@ -28,21 +28,26 @@
            <p>  You can influence behavior by reducing delays(ex email vs mail), making it more visible(ex progress indicator), or using a proxy to represent progress(ex grades) </p>
             <p>We also can use other indicators to account for delays. Like gamification can help us stay motivated to keep working out even if we don't initially notice changes.</p> 
         </div>
-        <h4>Connection Types</h4>
+        <h4>Nodes</h4>
         <div class="row mb-4" id="pop-up-content">
-            <div class="col-sm-4 mt-1">
-                <div class="card selected model-option linear">
-                        <p class="sm model-option linear"> Diet</p>
+            <div class="col-sm-3 mt-1">
+                <div class="selected card model-option 1">
+                    <p class="sm model-option 1">Diet</p>
                 </div>
             </div>
-            <div class="col-sm-4 mt-1">
-                <div class="card model-option inverse ">
-                    <p class="sm model-option inverse">Stress</p>
+            <div class="col-sm-3 mt-1"> 
+                <div class="card model-option 3">
+                    <p class="sm model-option 3">Stress</p>
                 </div>
             </div>
-            <div class="col-sm-4 mt-1">
-                <div class="card  model-option indirect">
-                        <p class="sm model-option indirect">Sun</p>
+            <div class="col-sm-3 mt-1">
+                <div class="card model-option 4">
+                    <p class="sm model-option 4">Sleep</p>
+                </div>
+            </div>
+            <div class="col-sm-3 mt-1">
+                <div class="card  model-option 5">
+                    <p class="sm model-option 5">Exercise</p>
                 </div>
             </div>
         </div>
@@ -54,16 +59,18 @@
         </div>
         <button id= "reset-button" type="button" class="btn btn-outline-primary">Reset</button>
 
-        <div class="row menu justify-content-md-center">
+        <div id="menu" class="row menu justify-content-md-center">
             <div class="col-sm-3 col-xs-6">
-                <p>Diet:</p>
+                <p id="a-label">Diet:</p>
                 <button type="button" class="btn btn-outline-primary btn-circle"id="a-minus">-</button>
                 <span id="a-val">1</span>
                 <button type="button" class="btn btn-outline-primary btn-circle" id="a-plus">+</button>
             </div>
             <div class="col-sm-3 col-xs-6">
-                <p>weight:</p>
-                <span id="a-weight-val">1</span>
+                <p >weight:</p>
+                <button type="button" class="btn btn-outline-primary btn-circle" id="a-weight-minus">-</button>
+                <span id="a-weight-val">0.5</span>
+                <button type="button" class="btn btn-outline-primary btn-circle" id="a-weight-plus">+</button>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <p>delay:</p>
@@ -72,7 +79,7 @@
                 <button type="button" class="btn btn-outline-primary btn-circle"id="a-delay-plus">+</button>
             </div>
             <div class="col-sm-3 col-xs-6">
-                <p>B Value:</p>
+                <p>Health:</p>
                 <span id="b-val">0</span>
             </div>
         </div>
