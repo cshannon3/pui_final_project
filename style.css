@@ -1,0 +1,219 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+    font-family: 'Source Sans Pro', monospace;
+}
+p{
+    font-size: medium;
+}
+/* From https://www.ordinarycoders.com/blog/article/codepen-bootstrap-card-hovers*/
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+
+#chartContent{
+    z-index: 2;
+    display: none;
+}
+
+.flip-card-title{
+    font-weight: bold;
+    padding-top:5px;
+    font-size: 18px;
+}
+.flip-card-paragraph{
+    font-weight: bold;
+    padding-top:5px;
+    font-size: 18px;
+}
+#chartBox{
+    height: 150px;
+    background-color: darkblue;
+}
+#overlay {
+    position: relative; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 90vw; /* Full width (cover the whole page) */
+    height:90vh; /* Full height (cover the whole page) */
+    top: 5vh; 
+    left: 5vw;
+    right: 5vw;
+    bottom: 5vh;
+    background-color: white;
+    border-radius: 5%;
+    /* background-color: rgba(0,0,0,0.5); Black background with opacity */
+    z-index: 8; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+
+
+.card-img-top{
+    width:250px;
+    height: 200px;
+}
+.my-card{
+    height: 200px;
+    width:250px;
+}
+.main-paragraph{
+font-size: medium;
+padding:5px 0px;
+}
+.ttl{
+    font-weight: bold;
+    padding-top:5px;
+    font-size: 18px;
+}
+
+.titlebox{
+    height:100px;
+    padding-left: 30px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    
+
+}
+.quotes{
+    font-size: 36px;
+    color:white;
+    text-align: center;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.navbar{
+    height: 94px;
+    background: #0F2E3D;
+    width: 100vw;
+}
+.btn-block {
+	display: block;
+}
+
+.main-box{
+    height:100vh;
+    width: 100vw;
+}
+.main-box2{
+    position: relative;
+    top:-100vh;
+}
+
+.row{
+    padding: 0px 5vw;
+}
+.arrow-down{
+width: 0; 
+height: 0; 
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+
+border-top: 20px solid #f00;
+}
+.s1-text-container{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+   padding: 50px;
+     height: min-content;
+
+}
+.text-white {
+    color: whitesmoke;
+}
+
+.s1-header{
+   
+    font-family: 'Francois One', sans-serif;
+    font-size: 55px;
+    line-height: 96px;
+/* text color / light */
+    color: #FFFFFF;
+}
+
+#internet-image{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(44, 129, 208, 0.3), rgba(44, 129, 208, 0.3)), url('assets/images/ss.png');
+    backdrop-filter: blur(4px);
+    background-size:cover;
+}
+
+#connect-image{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(44, 129, 208, 0.3), rgba(44, 129, 208, 0.3)), url('assets/images/ic.jpg');
+    backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+  .flowval{
+      width: 50px;
+      height:20px;
+  }
+ 
+.thumbnail{
+    height: 100px;
+}
+  /* ---- reset ---- */
+   body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } 
+   canvas{ display: block; vertical-align: bottom; }
+    /* ---- particles.js container ---- */ 
+    #particles-js{ 
+        width: 100vw; 
+        height: 100vh; 
+        background-color: rgba(44, 129, 208, 1.0);  
+         background-image: url('assets/images/ss.png'); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center;
+        /*background-position: 50% 50%;  */
+    } 
+    #myContainer {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        background: yellow;
+      }
+      #myAnimation {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background-color: red;
+ } 
+
+.slidecontainer{
+    width: 60px;
+}
+
+
+.card-img-top{
+    object-fit: cover;
+    width: 100%;
+}
+.card-img-top2{
+    margin: auto;
+    width: 50%;
+}
+

@@ -1,0 +1,51 @@
+
+.popup-card{
+    position: absolute;
+    left:5vw;
+    top:5vw;
+    right:5vw;
+    bottom: 5vw;;
+/* background-color:lavender; */
+    height: 90vh;
+    width: 90vw;
+    padding: 20px;
+    
+}
+    .popup-card-title{
+        font-size: large;
+        color: darkblueå;
+    }
+    .popup-card-paragraph{
+
+    }
+
+.sm{
+font-size: 12px;
+padding-top:10px ;
+text-align: center;
+}
+
+.menu{
+   padding-bottom: 100px ;
+}
+
+#simulationBox{
+    margin: auto;
+}
+#pop-up{
+    padding: 10vw 40px;
+}
+
+.selected{
+    box-shadow: 3px 3px #888888;
+    background-color: rgba(0, 0, 255, 0.3);
+ }
+ .btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
